@@ -9,3 +9,7 @@ resources:
 
 patches:
   - path: deployment-patch.yaml
+
+images:
+  - name: ghcr.io/vishalsallagargi/gitops-demo-nginx
+    newTag: latest
