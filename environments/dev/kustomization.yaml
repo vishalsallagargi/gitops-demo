@@ -13,4 +13,4 @@ patches:
 images:
 - name: ghcr.io/vishalsallagargi/gitops-demo-nginx
   newName: ghcr.io/vishalsallagargi/gitops-demo-nginx
-  newTag: does-not-exist
+  newTag: 787fdbfe2592bf0f2d2726e8745bfa496be16e88
