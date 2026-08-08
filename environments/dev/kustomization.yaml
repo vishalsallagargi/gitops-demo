@@ -4,12 +4,13 @@ kind: Kustomization
 namespace: demo-dev
 
 resources:
-  - ../../apps/nginx/base
-  - namespace.yaml
+- ../../apps/nginx/base
+- namespace.yaml
 
 patches:
-  - path: deployment-patch.yaml
+- path: deployment-patch.yaml
 
 images:
-  - name: ghcr.io/vishalsallagargi/gitops-demo-nginx
-    newTag: latest
+- name: ghcr.io/vishalsallagargi/gitops-demo-nginx
+  newName: ghcr.io/vishalsallagargi/gitops-demo-nginx
+  newTag: 787fdbfe2592bf0f2d2726e8745bfa496be16e88
