@@ -3,6 +3,8 @@ kind: Deployment
 
 metadata:
   name: nginx
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 
 spec:
   replicas: 2
